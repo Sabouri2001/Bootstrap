@@ -1,0 +1,478 @@
+@font-face {
+    font-family: karimFont;
+    src: url("../fonts/NotoSans-Regular.ttf");
+}
+*{
+    font-family: karimFont;
+}
+header{
+
+    & div.h-100{
+        .dropdown{
+            &:nth-of-type(1){
+        .dropdown-menu{
+        
+            width: 280px;
+            right: calc(50% - 140px);
+        
+        }}
+    
+        }
+    }
+}
+.gap-32{
+    gap: 32px;
+}
+
+.dropdown{
+    &:hover{
+        .dropdown-menu{
+            display: inline-block !important;
+        }}
+}
+.bg-diff{
+    background-color: #3b3b3b;
+}
+.bg-karimDark{
+    background-color: #23252B;
+}
+.bg-KarimBody{
+    background-color: #15171E;
+}
+.text-green{
+    color: #6cdb00;
+}
+input{
+    &:focus{
+    box-shadow: unset !important;
+    }
+    &::placeholder{
+        color: white !important;
+        font-size: 16px;
+    }
+}
+.bg-darkcounstom{
+    background-color: #303237;
+    padding: 0px 16px;
+}
+
+.karim{
+    padding: 19px 16px;
+}
+.dropdown-toggle{
+    font-size: 14px;
+}
+
+.col-4{
+    & ul{
+        & li{
+            padding: 0px 16px;
+        }
+    }
+}
+@media screen and (min-width:1400px) {
+    .w-20{
+        width: 20%;
+        padding: 16px  32px;
+        padding-left: 16px;
+        
+    }
+    .w-55{
+        width: 66%;
+    }
+}
+@media screen and (max-width:768px) {
+    .w-20{
+        width: 100%;
+    }
+}
+.w-55{
+    width: 80%;
+}
+.w-20{
+    padding: 15px;
+    
+}
+.no-wrap{
+    text-wrap: nowrap;
+}
+nav{
+    & div{
+        &:nth-of-type(7){
+            & a{
+                font-size: 14px;
+            }
+        }
+    }
+}
+.h-full{
+    height: 100vh;
+    background-color: #1A1C23 ;
+}
+
+.top-25{
+    top: 10%;
+}
+.left-100m{
+    left: -100%;
+}
+nav{
+    transition: 300ms;
+}
+
+/* accordion */
+.accordion-item, 
+  .accordion-button {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+ 
+  .accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  
+  .accordion-button:hover {
+    background-color: #1F2026 !important;
+  }
+
+
+  .accordion-body:hover {
+    background-color: #1F2026 !important;
+  }
+
+ 
+
+
+
+
+/* Card styling */
+
+.cardG {
+   gap: 15px;
+}
+
+.custom-card {
+   
+    background-color: #22252A;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: fit-content;
+    
+    
+  }
+
+  .custom-card:hover {
+    background-color: #303338 !important;
+  }
+
+  .custom-img {
+    height: 161px;
+    object-fit: cover;
+  }
+
+  .custom-card-header {
+    color: #C6C6C8;
+  }
+
+  .custom-title {
+    color: #DEDEDF;
+  }
+
+  .custom-text {
+    color: #EDA910;
+  }
+
+  .custom-footer {
+    margin-top: 62px;
+  }
+
+
+  /* Card Footer */
+  .custom-card-footer {
+    margin-top: 62px;
+    padding: 24px;
+    border: none; 
+  }
+
+
+  /* swiper */
+  
+  .custom-carousel {
+    width: 100vw;  
+    height: 360px;
+  }
+  
+  @media (max-width: 991px) { 
+    .custom-carousel {
+      height: 440px;
+    }
+  }
+
+  .carousel-container:hover .carousel-control-prev,
+  .carousel-container:hover .carousel-control-next {
+    opacity: 1;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0; 
+  }
+
+  .carousel-indicators {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  .carousel-inner {
+    max-width: 1580px;
+  }
+
+  .container-fluid {
+    max-width: 1610px;
+    width: 100%;
+  }
+
+  .myText {
+    padding-top: 66px;
+    padding-bottom: 20px;
+  }
+
+
+
+  /* laptop view start */
+
+.laptop-text {
+    top: 40%;
+    right: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .laptop-text{
+        inset: 0;
+      
+         margin: auto;
+         top: 17%;
+       }
+    .laptop-imgg {
+        inset: 0;
+      
+         margin: auto;
+         top: 50%;
+        width: 50%;
+         max-width: 545px;
+    }
+  }
+
+  @media (min-width: 375px) and (max-width: 576px) {
+    .laptop-text{
+        inset: 0;
+      
+         margin: auto;
+         top: 18%;
+        
+       }
+    .laptop-imgg {
+        inset: 0;
+      
+         margin: auto;
+         top: 60%;
+        
+         width: 65%;
+         padding-top: 5px;
+    }
+
+   
+  }
+
+ 
+
+
+@media (min-width: 992px) {
+    .laptop-text{
+      right: 8%;
+      top: 30%;
+    }
+
+    .myBG{
+        height: 459px;
+     }
+  
+}
+
+@media (min-width: 1200px) {
+    .laptop-text{
+        top: 40%;
+        right: 5%;
+    }
+}
+
+@media (min-width: 1551px) {
+    .laptop-text{
+      right: 10%;
+      top: 38%;
+    }
+}
+@media (min-width: 1750px) {
+    .laptop-text{
+      right: 15%;
+      top: 38%;
+    }
+   
+}
+
+.info {
+    color: #BBBEC7;
+}
+
+.btn3 {
+    background-color: #0074E0;
+}
+.btn2 {
+    background-color: #292E36;
+    text-decoration: none;
+}
+
+.text-start {
+    cursor: pointer;
+}
+
+  @media (min-width: 1400px) {
+    .myText>h2 {
+      padding-left: 4rem !important; 
+    }
+  }
+
+  .myBG {
+    padding-top: 81px;
+    width: 100%;
+    height: 567px;
+  }
+
+  .laptop-img {
+    width: 53%; 
+   top: 26%;
+   left: 5%;
+   max-width: 799px;
+}
+
+ @media (min-width: 1501px) {
+    .myBG{
+       height: 650px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .laptop-img {
+        width: 53%; 
+       top: 20%;
+       left: 5%;
+       max-width: 799px;
+    }
+}
+
+/* laptop view end */
+
+
+/* footer start */
+
+/* dropup menu */
+.dropdown-menu {
+width: 468px;
+}
+.constant {
+    height: 173px;
+    background-color: #171926;
+}
+
+.Continent {
+    background-color: #2F303C;
+    padding: 10px;
+    cursor: pointer;
+}
+.Continent:hover {
+    background-color: #3A3B46;
+}
+.CountryList {
+    height: 233px;
+    background-color: #10111B;
+}
+.dropdown-item:hover {
+background-color: #1C1E27;
+}
+.btnCountry {
+    background-color: transparent;
+    border: none;
+ 
+}
+.btnCountry:hover {
+    background-color: #202329;
+}
+
+.AboutUs:hover {
+    background-color: #202329;
+    cursor: pointer;
+}
+.logo {
+    cursor: pointer;
+}
+
+.social {
+background-color: #25282c;
+width: 40px;
+height: 40px;
+cursor: pointer;
+}
+.social:hover {
+    background-color: #2C2F34;
+}
+.Enter {
+    font-size: 12px;
+}
+
+.trade {
+    opacity: 70%;
+}
+.trade:hover {
+    cursor: pointer;
+    opacity: 100%; 
+}
+.rules {
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+
+}
+.rules:hover {
+    color: white;
+}
+
+.custom-line {
+   
+        width: 95%;
+        height: 2px;
+        background-color: gray;
+        display: block; /* Ensures it's not hidden */
+        margin: 10px auto; /* Adds some spacing */
+      
+}
+/* footer end */
+
+
+  
+
+
+
+
+ 
+
+
+

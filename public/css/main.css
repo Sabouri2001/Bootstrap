@@ -143,6 +143,17 @@ nav{
     background-color: #1F2026 !important;
   }
 
+  .specialOne {
+    background-color: #313131 !important;
+  }
+  .specialOne:hover {
+    background-color: rgb(70, 69, 69) !important;
+  }
+
+  .accordion-body {
+    cursor: pointer;
+  }
+
  
 
 
@@ -242,8 +253,14 @@ nav{
     padding-bottom: 20px;
   }
 
-
-
+  .empty {
+    margin-top: 140px;
+  }
+ 
+  .titleimg {
+    left: 15%;
+    top: 7%;
+  }
   /* laptop view start */
 
 .laptop-text {
@@ -460,11 +477,27 @@ cursor: pointer;
         width: 95%;
         height: 2px;
         background-color: gray;
-        display: block; /* Ensures it's not hidden */
-        margin: 10px auto; /* Adds some spacing */
+        display: block; 
+        margin: 10px auto; 
       
 }
 /* footer end */
+
+/* square start */
+.mySquare {
+width: 44px;
+height: 44px;
+bottom: 40px;
+right: 40px;
+cursor: pointer;
+transition: border-width 0.2s ease-in-out
+}
+.mySquare:hover {
+    border-width: 2px !important;
+  }
+
+
+
 
 
   

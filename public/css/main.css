@@ -52,8 +52,28 @@ input{
     }
 }
 .bg-darkcounstom{
-    background-color: #303237;
+    background-color: #22252A;
     padding: 0px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.bg-darkcounstom:hover {
+    background-color: #2F3237;
+}
+
+.myHover:hover {
+    color: white;
+    fill: white;
+}
+.myHover {
+    color: rgb(187, 185, 185);
+    transition: color 0.3s ease-in-out;
+}
+
+.myHeader{
+   
+   
+    
 }
 
 .karim{

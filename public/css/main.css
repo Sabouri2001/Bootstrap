@@ -60,7 +60,9 @@ input{
 .bg-darkcounstom:hover {
     background-color: #2F3237;
 }
-
+.bg-darkcounstom2:hover {
+    background-color: #2F3237;
+}
 .myHover:hover {
     color: white;
     fill: white;
@@ -219,7 +221,14 @@ nav{
   .custom-footer {
     margin-top: 62px;
   }
+ 
+  .dl {
+    cursor: pointer;
+  }
 
+  .managedMenu {
+    height: 315px;
+  }
 
   /* Card Footer */
   .custom-card-footer {
@@ -235,6 +244,23 @@ nav{
     width: 100vw;  
     height: 360px;
   }
+  .myh2 {
+    font-size: 20px;
+  }
+  @media (min-width: 992px) {
+    .custom-width {
+        width: 50% !important;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .custom-width {
+        width: 100% !important;
+    }
+}
+
+  
   
   @media (max-width: 991px) { 
     .custom-carousel {
@@ -309,7 +335,7 @@ nav{
     }
   }
 
-  @media (min-width: 375px) and (max-width: 576px) {
+  @media (max-width: 576px) {
     .laptop-text{
         inset: 0;
       

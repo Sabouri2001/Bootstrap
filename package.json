@@ -6,12 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "server": "json-server --watch db.json"
   },
   "devDependencies": {
     "vite": "^5.4.10"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "json-server": "^1.0.0-beta.3"
   }
 }
